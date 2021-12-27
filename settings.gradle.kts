@@ -5,4 +5,4 @@ pluginManagement {
   }
 }
 
-rootProject.name = "paperweight-test-plugin"
+rootProject.name = "TestPlugin"

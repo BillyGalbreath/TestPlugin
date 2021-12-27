@@ -1,0 +1,7 @@
+name: "${name}"
+main: "${group}.${name}"
+version: "${version}"
+api-version: "1.18"
+description: "${description}"
+authors:
+  - "AwesomeDevGuy"
