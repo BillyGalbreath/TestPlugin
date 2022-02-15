@@ -11,8 +11,13 @@ java {
   toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 }
 
+repositories {
+  // maven("https://repo.purpurmc.org/snapshots") -> Use Purpur Bundle
+}
+
 dependencies {
   paperDevBundle("1.18.1-R0.1-SNAPSHOT")
+  // paperweightDevelopmentBundle("org.purpurmc.purpur:dev-bundle:1.18.1-R0.1-SNAPSHOT") -> Use Purpur Bundle
 }
 
 tasks {
